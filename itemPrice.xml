@@ -1,0 +1,23 @@
+<ICA_00023535_PR_P_S table="XCHLIB.ITPR00000">
+    <row>
+        <PRITEM type="1" typename="char">03-020-07128   </PRITEM>
+        <PRPRICE type="2" typename="numeric">41.77</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">01-005-10001   </PRITEM>
+        <PRPRICE type="2" typename="numeric">178.48</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">01-147-02038   </PRITEM>
+        <PRPRICE type="2" typename="numeric">228.97</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">01-147-22026   </PRITEM>
+        <PRPRICE type="2" typename="numeric">228.97</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">03-045-18025   </PRITEM>
+        <PRPRICE type="2" typename="numeric">65.50</PRPRICE>
+    </row>
+</ICA_00023535_PR_P_S>
+

@@ -1,0 +1,13 @@
+<SOAP:Envelope xmlns:SOAP="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://www.w3.org/2005/08/addressing">
+  <SOAP:Header>
+  </SOAP:Header>
+  <SOAP:Body>
+    <Server_Reply xmlns="some_url">
+      <conversionRate>
+        <conversionRateDetail>
+          <currency>dollar</currency>
+        </conversionRateDetail>
+      </conversionRate>
+    </Server_Reply>
+  </SOAP:Body>
+</SOAP:Envelope>

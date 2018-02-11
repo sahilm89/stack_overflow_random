@@ -1,0 +1,20 @@
+<Body>
+    <Count>3</Count>
+    <Books>
+        <Book>
+            <Title>Book 1</Title>
+            <Author>Author 1</Author>
+        </Book>
+        <Book>
+            <Title>Book 2</Title>
+            <Author>Author 2</Author>
+        </Book>
+        <Book>
+            <Title>Book 3</Title>
+            <Author>Author 3</Author>
+        </Book>
+    </Books>
+    <Details>
+        <Errors>0</Errors>
+    </Details>
+</Body>

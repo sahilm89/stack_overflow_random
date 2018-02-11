@@ -1,0 +1,12 @@
+from bigfloat import sub, add, mul, div, sqr, sqrt, precision
+
+a=1e-8
+b=10
+c=1e-8
+
+D = sub(sqr(b) , mul(4, mul(a,c) ), precision(100))
+
+x1 = div( - add(b , sqrt(D, precision(100))) , mul(2,a), precision(100))
+x2 = div( - sub(b , sqrt(D, precision(100))) , mul(2,a), precision(100))
+
+print x1,x2

@@ -1,0 +1,92 @@
+<STEP-ProductInformation>
+    <Products>
+        <Product AnalyzerResult="included" ID="094168" ParentID="MM11083" UserTypeID="Item">
+            <Name>5659R</Name>
+            <ClassificationReference AnalyzerResult="" ClassificationID="" InheritedFrom="" />
+            <Values>
+                <Value AttributeID="Retail Price">608.69</Value>
+                <Value AttributeID="Item Class">02017</Value>
+                <Value AttributeID="Long Gun Web Model">Model 870</Value>
+                <Value AttributeID="Item Group">02</Value>
+                <Value AttributeID="Barrel Length">21 VR/RC:20 RS/FR</Value>
+                <Value AttributeID="Consumer Description">Model 870 Express Compact Combo 20 Gauge 21 Inch Vent Rib Barrel and 20 Inch Fully Rifled Deer Barrel Synthetic Stock Matte Black Finish 4 Round</Value>
+                <Value AttributeID="Gauge">20</Value>
+                <Value AttributeID="Made In The USA">Made In The USA</Value>
+                <Value AttributeID="Item Code">5659R</Value>
+                <Value AttributeID="Catalog Vendor Name">REMINGTON</Value>
+                <Value AttributeID="Capacity">4</Value>
+                <Value AttributeID="Chamber Inch">3</Value>
+                <Value AttributeID="Item Status">OPEN</Value>
+                <Value AttributeID="Package Guns">Package Guns</Value>
+                <Value AttributeID="Wildcat Eligible">N</Value>
+                <Value AttributeID="Item Description">REM 870 EXP CPT COMBO 20 21/20</Value>
+                <Value AttributeID="Primary Vendor">253LG</Value>
+                <Value AttributeID="Caliber-Gauge">20 GA.</Value>
+                <Value AttributeID="InventoryTyp">REG</Value>
+                <Value AttributeID="ProductPageNumber">&lt;NoVersionPageNo/&gt;</Value>
+                <Value AttributeID="Master Model Body Copy">Black synthetic stock. Black matte metal finish - non-reflective. Twenty one inch vent rib barrel with RemChoke and single bead sights and a twenty inch fully rifled deer barrel with rifled sights. Four round magazine capacity.</Value>
+                <Value AttributeID="Master Model Header">Model 870 Express Compact Synthetic Combo</Value>
+                <Value AttributeID="Vendor Group">REM</Value>
+            </Values>
+            <AssetCrossReference AnalyzerResult="included" AssetID="rem_5659r" Type="Primary Image" />
+        </Product>
+        <Product AnalyzerResult="included" ID="135950" ParentID="MM202159" UserTypeID="Item">
+            <Name>85118</Name>
+            <ClassificationReference AnalyzerResult="" ClassificationID="" InheritedFrom="" />
+            <Values>
+                <Value AttributeID="Retail Price">776.00</Value>
+                <Value AttributeID="Item Class">02022</Value>
+                <Value AttributeID="Long Gun Web Model">Model 930</Value>
+                <Value AttributeID="Item Group">02</Value>
+                <Value AttributeID="Barrel Length">24</Value>
+                <Value AttributeID="Consumer Description">Model 930 Jerry Miculek JM Pro Series 12 Gauge 3 Inch Chamber 24 Inch Vent Rib Barrel Black Synthetic Stock 9 Round</Value>
+                <Value AttributeID="Gauge">12</Value>
+                <Value AttributeID="Made In The USA">Made In The USA</Value>
+                <Value AttributeID="Item Code">85118</Value>
+                <Value AttributeID="Catalog Vendor Name">MOSSBERG</Value>
+                <Value AttributeID="Choke">F, M, IC</Value>
+                <Value AttributeID="Capacity">9</Value>
+                <Value AttributeID="Stock">Black Synthetic</Value>
+                <Value AttributeID="Chamber Inch">3</Value>
+                <Value AttributeID="Finish">Matte Blue</Value>
+                <Value AttributeID="Item Status">OPEN</Value>
+                <Value AttributeID="Wildcat Eligible">N</Value>
+                <Value AttributeID="Item Description">MOS 930 JM 12 3 24VR SYN 9</Value>
+                <Value AttributeID="Primary Vendor">215RT</Value>
+                <Value AttributeID="Caliber-Gauge">12 GA.</Value>
+                <Value AttributeID="InventoryTyp">REG</Value>
+                <Value AttributeID="ProductPageNumber">&lt;NoVersionPageNo/&gt;</Value>
+                <Value AttributeID="Master Model Body Copy">Competition level engineering. Features a beveled loading gate and shortened forend for ease of loading and an added barrel clamp for extended mag tube stability. Dual gas system for recoil reduction. Accu-set choke tubes includes Full, Modified and Improved Cylinder. Engraved receiver. Knurled charging handle for retracting the bolt. Quick-empy magazine button for unloading. Matte blue vent-rib barrel. Black synthetic stock and forend with checkering. Fiber optic front sight. Three inch chamber. Gun lock included.</Value>
+                <Value AttributeID="Master Model Header">Model 930 Jerry Miculek JM Pro Series</Value>
+                <Value AttributeID="Vendor Group">MOS</Value>
+            </Values>
+            <AssetCrossReference AnalyzerResult="included" AssetID="MOS_85118" Type="Primary Image" />
+        </Product>
+        <Product AnalyzerResult="included" ID="157866" ParentID="MM241817" UserTypeID="Item">
+            <Name>JRTF614</Name>
+            <ClassificationReference AnalyzerResult="" ClassificationID="" InheritedFrom="" />
+            <Values>
+                <Value AttributeID="Retail Price">950.00</Value>
+                <Value AttributeID="Item Class">02046</Value>
+                <Value AttributeID="Item Group">02</Value>
+                <Value AttributeID="Barrel Length">22</Value>
+                <Value AttributeID="Consumer Description">Tikka T3 Forest .22-250 Remington 22 Inch Barrel Blue Finish No Sights Walnut Stock 3 Round</Value>
+                <Value AttributeID="Item Code">JRTF614</Value>
+                <Value AttributeID="Caliber">.22-250 Rem.</Value>
+                <Value AttributeID="Catalog Vendor Name">BERETTA</Value>
+                <Value AttributeID="Capacity">3</Value>
+                <Value AttributeID="Finish">Blue</Value>
+                <Value AttributeID="Item Status">OPEN</Value>
+                <Value AttributeID="Wildcat Eligible">N</Value>
+                <Value AttributeID="Item Description">BER T3 FORST 22250 22 BL WLN 3</Value>
+                <Value AttributeID="Primary Vendor">120TK</Value>
+                <Value AttributeID="Caliber-Gauge">.22-250 REM.</Value>
+                <Value AttributeID="InventoryTyp">REG</Value>
+                <Value AttributeID="ProductPageNumber">&lt;NoVersionPageNo/&gt;</Value>
+                <Value AttributeID="Master Model Body Copy">Features a roll-over cheek piece on the checkered walnut stock. Adjustable single stage trigger. Two-way linear safety. Sling swivel studs. No sights. Black rubber recoil pad. Cold hammer forged, free-floating barrel with recessed and precision crowned muzzle. Single column detachable magazine with flush release.</Value>
+                <Value AttributeID="Master Model Header">Tikka T3 Forest</Value>
+                <Value AttributeID="Vendor Group">BER</Value>
+            </Values>
+            <AssetCrossReference AnalyzerResult="included" AssetID="BER_JRTF615" Type="Primary Image" />
+        </Product>
+</STEP-ProductInformation>

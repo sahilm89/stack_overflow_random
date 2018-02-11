@@ -1,0 +1,49 @@
+<AS_Items table="XCHLIB.ITUP0000">
+    <row>
+        <UPITEM type="1" typename="char">03-020-07128   </UPITEM>
+        <UPMFGP type="1" typename="char">03-020-07128   </UPMFGP>
+        <UPVNDR type="1" typename="char">DANIEL DEFENSE                </UPVNDR>
+        <UPUPC type="1" typename="char">815604016780   </UPUPC>
+        <UPDSCR type="1" typename="char">DAN KEYMD OFFSET FLSHLGHT MT  </UPDSCR>
+        <UPRTPR type="2" typename="numeric">55.00</UPRTPR>
+        <UPHZCD type="1" typename="char">0</UPHZCD>
+        <UPUOM type="1" typename="char">EA </UPUOM>
+        <UPWGHT type="2" typename="numeric">0.5000</UPWGHT>
+        <CONSUMER_DROP_SHIP type="12" typename="varchar">Y</CONSUMER_DROP_SHIP>
+    </row>
+    <row>
+        <UPITEM type="1" typename="char">01-005-10001   </UPITEM>
+        <UPMFGP type="1" typename="char">01-005-10001   </UPMFGP>
+        <UPVNDR type="1" typename="char">DANIEL DEFENSE                </UPVNDR>
+        <UPUPC type="1" typename="char">852548002028   </UPUPC>
+        <UPDSCR type="1" typename="char">DAN OMEGA RAIL 7.0 CARBINE    </UPDSCR>
+        <UPRTPR type="2" typename="numeric">229.00</UPRTPR>
+        <UPHZCD type="1" typename="char">0</UPHZCD>
+        <UPUOM type="1" typename="char">EA </UPUOM>
+        <UPWGHT type="2" typename="numeric">1.0000</UPWGHT>
+        <CONSUMER_DROP_SHIP type="12" typename="varchar">Y</CONSUMER_DROP_SHIP>
+    </row>
+    <row>
+        <UPITEM type="1" typename="char">01-147-02038   </UPITEM>
+        <UPMFGP type="1" typename="char">01-147-02038   </UPMFGP>
+        <UPVNDR type="1" typename="char">DANIEL DEFENSE                </UPVNDR>
+        <UPUPC type="1" typename="char">815604016704   </UPUPC>
+        <UPDSCR type="1" typename="char">DAN SLIM RAIL 12.0 RIFLE      </UPDSCR>
+        <UPRTPR type="2" typename="numeric">299.00</UPRTPR>
+        <UPHZCD type="1" typename="char">0</UPHZCD>
+        <UPUOM type="1" typename="char">EA </UPUOM>
+        <UPWGHT type="2" typename="numeric">1.4000</UPWGHT>
+        <CONSUMER_DROP_SHIP type="12" typename="varchar">Y</CONSUMER_DROP_SHIP>
+    </row>
+    <row>
+        <UPITEM type="1" typename="char">01-147-22026   </UPITEM>
+        <UPMFGP type="1" typename="char">01-147-22026   </UPMFGP>
+        <UPVNDR type="1" typename="char">DANIEL DEFENSE                </UPVNDR>
+        <UPUPC type="1" typename="char">815604016698   </UPUPC>
+        <UPDSCR type="1" typename="char">DAN SLIM RAIL 15.0 RIFLE      </UPDSCR>
+        <UPRTPR type="2" typename="numeric">299.00</UPRTPR>
+        <UPHZCD type="1" typename="char">0</UPHZCD>
+        <UPUOM type="1" typename="char">EA </UPUOM>
+        <UPWGHT type="2" typename="numeric">1.5500</UPWGHT>
+        <CONSUMER_DROP_SHIP type="12" typename="varchar">Y</CONSUMER_DROP_SHIP>
+    </row>

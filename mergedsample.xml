@@ -1,0 +1,62 @@
+<FF_IT_AP_P_S table="XCHLIB.ITAP00000">
+    <row>
+        <APITEM type="1" typename="char">AK-S30         </APITEM>
+        <APQAVL type="2" typename="numeric">20</APQAVL>
+    </row>
+    <row>
+        <APITEM type="1" typename="char">90500H         </APITEM>
+        <APQAVL type="2" typename="numeric">2159</APQAVL>
+    </row>
+    <row>
+        <APITEM type="1" typename="char">AP60218        </APITEM>
+        <APQAVL type="2" typename="numeric">68</APQAVL>
+    </row>
+    <row>
+        <APITEM type="1" typename="char">ATIGLOW200P    </APITEM>
+        <APQAVL type="2" typename="numeric">23</APQAVL>
+    </row>
+    <row>
+        <APITEM type="1" typename="char">ATIGLOW201P    </APITEM>
+        <APQAVL type="2" typename="numeric">6</APQAVL>
+    </row>
+    <row>
+        <APITEM type="1" typename="char">ATIGOMNIHA300  </APITEM>
+        <APQAVL type="2" typename="numeric">5</APQAVL>
+    </row>
+    <row>
+        <APITEM type="1" typename="char">90451R         </APITEM>
+        <APQAVL type="2" typename="numeric">392</APQAVL>
+    </row>
+    <row>
+        <DLITEM type="1" typename="char">S3H5V242412PHC </DLITEM>
+    </row>
+    <row>
+        <DLITEM type="1" typename="char">APX82424411    </DLITEM>
+    </row>
+    <row>
+        <DLITEM type="1" typename="char">APX81224411    </DLITEM>
+    </row>
+    <row>
+        <DLITEM type="1" typename="char">5-93801        </DLITEM>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">03-020-07128   </PRITEM>
+        <PRPRICE type="2" typename="numeric">41.77</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">01-005-10001   </PRITEM>
+        <PRPRICE type="2" typename="numeric">178.48</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">01-147-02038   </PRITEM>
+        <PRPRICE type="2" typename="numeric">228.97</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">01-147-22026   </PRITEM>
+        <PRPRICE type="2" typename="numeric">228.97</PRPRICE>
+    </row>
+    <row>
+        <PRITEM type="1" typename="char">03-045-18025   </PRITEM>
+        <PRPRICE type="2" typename="numeric">65.50</PRPRICE>
+    </row>
+</FF_IT_AP_P_S>

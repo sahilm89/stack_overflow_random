@@ -1,0 +1,14 @@
+def main():
+
+    with open('data.txt', 'r') as searchfile:
+            for line in searchfile:
+                line = line.strip()
+                if ("Run=true") in line:
+                    idleNum = int(line.split("Idle=")[1])
+                    if (idleNum >=10):
+                        print line
+
+    return 0
+
+if __name__ == '__main__':
+    main()

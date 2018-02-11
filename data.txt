@@ -1,0 +1,6 @@
+Name=A     Run=true     Idle=15     
+Name=B     Run=true     Idle=10
+Name=C     Run=false    Idle=75
+Name=D     Run=true     Idle=92
+Name=E     Run=false    Idle=6
+Name=F     Run=false    Idle=21

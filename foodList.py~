@@ -1,0 +1,38 @@
+#!/usr/bin/python
+
+
+rawIngredients = ['eggs','onions']
+allItems = rawIngredients + ['omelette', 'pileofomelettes']
+relations = {}
+foodDict = {}
+
+with open("relations.txt") as r:
+    relationlist=r.read().splitlines()
+    for relation in relationlist:
+        item, equatedTo = relation.split(': ')
+        ingredientsAndCoefficients = equatedTo.split('+')
+        listIngredients = []
+        for ingredient in ingredientsAndCoefficients:
+            coefficient, item2 = ingredient.split('x')
+            listIngredients.append((float(coefficient),item2))
+        relations.update({item:listIngredients})
+
+for item in allItems:
+    foodDict.update({item:0})
+
+with open("food.txt") as g:
+    foodlist=g.read().splitlines()
+    for item in foodlist:
+        food,value = item.split(': ')
+        if food in rawIngredients:  
+            foodDict.update({food:value})
+        else:
+            value = 0.
+            for item2 in range(len(relations[food])):
+                value += relations[food][item2][0]* float(foodDict[relations[food][item2][1]])
+            foodDict.update({food: value })
+
+with open("food.txt",'w') as g:
+    for key in allItems:
+        g.write(key + ': ' + str (foodDict[key])+ '\n')
+        print key + ': ' + str(foodDict[key])

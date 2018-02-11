@@ -1,0 +1,55 @@
+from sklearn import linear_model
+import csv
+import numpy as np
+import matplotlib.pyplot as plt
+
+def process_chunk(chuk):
+
+    training_set_feature_list = []
+    training_set_label_list = []
+    test_set_feature_list = []
+    test_set_label_list = []
+    count = 1
+    # to divide into training & test, I am putting line 10th and 11th in test set
+    count = 0
+    for line in chuk:
+        if count == 9 or count == 10:   
+            test_set_feature_list.append(np.array(line[3:5],dtype = np.float))
+            test_set_label_list.append(np.array(line[2],dtype = np.float))
+        else:    
+            training_set_feature_list.append(np.array(line[3:5],dtype = np.float))
+            training_set_label_list.append(np.array(line[2],dtype = np.float))
+
+        count += 1
+    # Create linear regression object
+    regr = linear_model.LinearRegression()
+    # Train the model using the training sets
+    regr.fit(training_set_feature_list, training_set_label_list)
+
+    predictedTestSet = regr.predict(test_set_feature_list)
+
+     # The coefficients
+    print 'Coefficients: {}'.format(regr.coef_)
+    # The mean square error
+    print 'Residual sum of squares: %.2f' % np.mean(predictedTestSet - test_set_label_list) ** 2
+    # Explained variance score: 1 is perfect prediction
+    print 'Variance score: %.2f' % regr.score( test_set_feature_list, test_set_label_list)
+    
+    return predictedTestSet
+
+
+# Load and parse the data
+file_read = open('file1.csv', 'r')
+
+reader = csv.reader(file_read)
+
+chunk, chunksize = [], 12
+
+for i, line in enumerate(reader):
+    if (i % chunksize == 0 and i > 0):
+        predictedSet = process_chunk(chunk)
+        print predictedSet
+        print "\n"
+        del chunk[:]
+    elif i!=0:
+        chunk.append(line)

@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+b=`w|cut -d' ' -f1`;
+while (true)
+    do
+        a=`w|cut -d' ' -f1`;
+        if [ "$b" != "$a" ]
+            then
+            echo "new user!";
+        fi
+        b=$a;
+    sleep 1;
+    done

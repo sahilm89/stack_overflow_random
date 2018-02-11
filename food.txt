@@ -1,0 +1,4 @@
+eggs: 5
+omelette: 26.0
+onions: 1
+pileofomelettes: 156.0

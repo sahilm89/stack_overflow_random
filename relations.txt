@@ -1,0 +1,2 @@
+omelette: 5 x eggs + 1 x onions
+pileofomelettes: 6 x omelette

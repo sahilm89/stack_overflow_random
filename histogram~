@@ -1,0 +1,50 @@
+import numpy as np
+import matplotlib.mlab as mlab
+import matplotlib.pyplot as plt
+
+fig = plt.figure()
+ax = fig.add_subplot(311)
+
+# example data
+mu = 100 # mean of distribution
+sigma = 15 # standard deviation of distribution
+x = mu + sigma * np.random.randn(10000)
+num_bins = 50
+
+# the histogram of the data
+n, bins, patches = ax.hist(x, num_bins, normed=1, facecolor='green', alpha=0.5)
+# add a 'best fit' line
+y = mlab.normpdf(bins, mu, sigma)
+ax.plot(bins, y, 'r--')
+ax.set_title(r'Histogram of IQ: $\mu=100$, $\sigma=15$')
+
+ax2 = fig.add_subplot(312)
+
+# example data
+mu = 100 # mean of distribution
+sigma = 15 # standard deviation of distribution
+x = mu + sigma * np.random.randn(10000)
+num_bins = 50
+
+# the histogram of the data
+n, bins, patches = ax2.hist(x, num_bins, normed=1, facecolor='green', alpha=0.5)
+# add a 'best fit' line
+y = mlab.normpdf(bins, mu, sigma)
+ax2.plot(bins, y, 'r--')
+ax2.set_title(r'Histogram of IQ: $\mu=100$, $\sigma=15$')
+
+ax3 = fig.add_subplot(313)
+
+# example data
+mu = 100 # mean of distribution
+sigma = 15 # standard deviation of distribution
+x = mu + sigma * np.random.randn(10000)
+num_bins = 50
+
+# the histogram of the data
+n, bins, patches = ax3.hist(x, num_bins, normed=1, facecolor='green', alpha=0.5)
+# add a 'best fit' line
+y = mlab.normpdf(bins, mu, sigma)
+ax3.plot(bins, y, 'r--')
+ax3.set_title(r'Histogram of IQ: $\mu=100$, $\sigma=15$')
+plt.show()
